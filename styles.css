@@ -173,3 +173,15 @@ p {
     display: none;
   }
 }
+/* 🔥 IMAGE SIZE FIX FOR BEHIND THE SCENES */
+
+.image-card {
+  max-width: 850px;      
+  margin: 40px auto;     
+  padding: 14px;
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+}
