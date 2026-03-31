@@ -48,9 +48,10 @@ a {
 }
 
 .page-shell {
-  width: min(calc(100% - 32px), var(--max-width));
+  width: 100%;
+  max-width: 1600px;   /* 🔥 make this bigger */
   margin: 0 auto;
-  padding: 28px 0 60px;
+  padding: 0 20px;
 }
 
 .site-header {
@@ -157,9 +158,8 @@ a {
 
 .hero-visual img {
   width: 100%;
-  min-height: 430px;
-  object-fit: cover;
-  object-position: top center;
+  height: auto;             
+  object-fit: contain;      
 }
 
 .stat-card,
@@ -311,7 +311,7 @@ p {
 
 /* hover effects */
 .card {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  overflow: visible;   
 }
 
 .card:hover {
