@@ -363,3 +363,7 @@ p {
     max-width: 12ch;
   }
 }
+.image-card {
+  max-width: 750px;
+  margin: 40px auto;
+}
