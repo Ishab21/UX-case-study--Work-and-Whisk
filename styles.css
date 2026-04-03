@@ -367,3 +367,28 @@ p {
   max-width: 350px;
   margin: 40px auto;
 }
+
+
+
+.visual-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: start;   
+}
+
+.visual-card {
+  display: inline-block;   /* key fix */
+  padding: 12px;
+  border-radius: 24px;
+  background: rgba(255,255,255,0.6);
+  box-shadow: var(--shadow);
+}
+
+.visual-card img {
+  display: block;
+  width: auto;        
+  max-width: 100%;    /* responsive */
+  height: auto;
+  border-radius: 18px;
+}
